@@ -33,8 +33,8 @@ export interface Acts {
 }
 
 export interface Behaviour {
-    weeb: boolean;
+    weeb?: boolean;
     student: boolean;
     hobbies: Acts[];
-    nature: Array<string>;
+    nature?: Array<string>;
 }

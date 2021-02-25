@@ -6,7 +6,12 @@ const quan: Person = {
     age: 26,
     address: 'France',
     role: Job.COLLEGE_STUDENT,
-    behaviour: null,
+    behaviour: {
+        student: true,
+        hobbies: [
+            { name: 'Programming', level: Number.POSITIVE_INFINITY }
+        ]
+    },
     gender: 'male',
 }
 
